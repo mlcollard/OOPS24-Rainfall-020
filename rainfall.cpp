@@ -14,7 +14,7 @@ int main() {
 
     // input the hourly rainfall date
     const std::vector<double> rainfall{ std::istream_iterator<double>(std::cin),
-                                  std::istream_iterator<double>() };
+                                        std::istream_iterator<double>() };
     if (!rainfall.size()) {
         std::cerr << "Error: no rainfall data\n";
         return 1;
