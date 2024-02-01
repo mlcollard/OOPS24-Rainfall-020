@@ -28,7 +28,7 @@ int main() {
     }
 
     // average rainfall
-    auto total  = rainfall[0];
+    auto total = rainfall[0];
     for (const auto rain : rainfall) {
         total += rain;
     }
