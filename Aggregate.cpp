@@ -3,3 +3,5 @@
 
     Implementation file for aggregate functions
 */
+
+#include "Aggregate.hpp"
