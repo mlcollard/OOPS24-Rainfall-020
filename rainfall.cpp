@@ -12,7 +12,7 @@
 
 int main() {
 
-    // input the hourly rainfall date
+    // input the hourly rainfall data
     const std::vector<double> rainfall{ std::istream_iterator<double>(std::cin),
                                         std::istream_iterator<double>() };
     if (!rainfall.size()) {
