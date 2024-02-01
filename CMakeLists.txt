@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.28)
 project(Rainfall)
 
 # Rainfall
-add_executable(rainfall rainfall.cpp)
+add_executable(rainfall rainfall.cpp Aggregate.cpp)
 target_compile_features(rainfall PRIVATE cxx_std_17)
 
 # Turn on all warnings, and make warnings errors
