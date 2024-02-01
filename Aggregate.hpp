@@ -1,0 +1,5 @@
+/*
+    Aggregate.hpp
+
+    Include file for aggregate functions
+*/
