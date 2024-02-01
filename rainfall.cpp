@@ -9,6 +9,7 @@
 #include <iomanip>
 #include <iterator>
 #include <vector>
+#include "Aggregate.hpp"
 
 int main() {
 
